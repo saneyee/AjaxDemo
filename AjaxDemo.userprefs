@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{CF93F779-7FC6-4184-879D-37DFD4BACA7D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AjaxDemo/appsettings.json">
+    <Files>
+      <File FileName="AjaxDemo/AjaxDemo.csproj" Line="1" Column="1" />
+      <File FileName="AjaxDemo/Startup.cs" Line="32" Column="9" />
+      <File FileName="AjaxDemo/Controllers/HomeController.cs" Line="22" Column="4" />
+      <File FileName="AjaxDemo/Views/Home/Index.cshtml" Line="19" Column="10" />
+      <File FileName="AjaxDemo/Program.cs" Line="14" Column="1" />
+      <File FileName="AjaxDemo/appsettings.json" Line="8" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AjaxDemo PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
