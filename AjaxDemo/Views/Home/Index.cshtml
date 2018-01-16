@@ -25,6 +25,18 @@
        }
      });
    });
+    $('.display-object').click(function () {
+    $.ajax({
+    type: 'GET',
+    dataType: 'json',
+    contentType: 'application/json',
+    url: '@Url.Action("DisplayObject")',
+    success: function (result) {
+      var resultString = 'Id: ' + result.id + '<br>City: ' + result.city + '<br>Country: ' + result.country;
+      $('#result3').html(resultString);
+    }
+  });
+});
 			
   });
 </script>
@@ -39,6 +51,10 @@
     <h2>Using Parameters</h2>
     <h4 class="sum">Sum</h4>
     <div id="result2"></div>
+
+	<h2>Using JSON to display an object</h2>
+    <h4 class="display-object">Display object</h4>
+    <div id="result3"></div>
 		
   </body>
 </html>
