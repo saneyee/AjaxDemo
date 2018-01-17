@@ -10,7 +10,15 @@ namespace AjaxDemo.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: /<controller>/
+        private AjaxDemoContext db = new AjaxDemoContext();
+
+		public IActionResult RandomDestinationList(int destinationCount)
+		{
+			var randomDestinationList = db.Destinations.OrderBy(r => Guid.NewGuid()).Take(destinationCount);
+			return Json(randomDestinationList);
+		}
+
+       
         public IActionResult Index()
         {
             return View();

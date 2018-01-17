@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AjaxDemo.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -9,6 +10,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 
 namespace AjaxDemo
 {
@@ -31,10 +33,10 @@ namespace AjaxDemo
         public void ConfigureServices(IServiceCollection services)
         {
 			services.AddMvc();
-			//services.AddEntityFrameworkMySql();
-			//services.AddEntityFramework()
-					//.AddDbContext<GummyBearKingdomDbContext>(options =>
-					//options.UseMySql(Configuration["ConnectionStrings:DefaultConnection"]));
+			services.AddEntityFrameworkMySql();
+			services.AddEntityFramework()
+					.AddDbContext<AjaxDemoContext>(options =>
+					options.UseMySql(Configuration["ConnectionStrings:DefaultConnection"]));
         }
 
 

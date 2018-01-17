@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{CF93F779-7FC6-4184-879D-37DFD4BACA7D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AjaxDemo/Views/Home/DisplayViewWithAjax.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AjaxDemo/Migrations/20180117003623_Initial.cs">
     <Files>
       <File FileName="AjaxDemo/AjaxDemo.csproj" Line="1" Column="1" />
-      <File FileName="AjaxDemo/Startup.cs" Line="32" Column="9" />
+      <File FileName="AjaxDemo/Startup.cs" Line="57" Column="14" />
       <File FileName="AjaxDemo/Controllers/HomeController.cs" Line="38" Column="4" />
-      <File FileName="AjaxDemo/Views/Home/Index.cshtml" Line="59" Column="2" />
+      <File FileName="AjaxDemo/Views/Home/Index.cshtml" Line="41" Column="5" />
       <File FileName="AjaxDemo/Program.cs" Line="14" Column="1" />
-      <File FileName="AjaxDemo/appsettings.json" Line="8" Column="2" />
-      <File FileName="AjaxDemo/Models/Destination.cs" Line="22" Column="3" />
-      <File FileName="AjaxDemo/Views/Home/DisplayViewWithAjax.cshtml" Line="6" Column="1" />
+      <File FileName="AjaxDemo/appsettings.json" Line="5" Column="2" />
+      <File FileName="AjaxDemo/Models/Destination.cs" Line="8" Column="52" />
+      <File FileName="AjaxDemo/Views/Home/DisplayViewWithAjax.cshtml" Line="4" Column="7" />
+      <File FileName="AjaxDemo/Models/AjaxDemoContext.cs" Line="40" Column="1" />
+      <File FileName="AjaxDemo/Migrations/20180117003623_Initial.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
